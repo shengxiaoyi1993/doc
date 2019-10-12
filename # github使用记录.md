@@ -49,8 +49,8 @@ Writing objects: 100% (4/4), 307 bytes | 307.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
 To github.com:shengxiaoyi1993/project.git
    603370e..656da9b  master -> master
-sxy@sxy-pc:~/git/repos/project$ 
-sxy@sxy-pc:~/git/repos/project$ 
+sxy@sxy-pc:~/git/repos/project$
+sxy@sxy-pc:~/git/repos/project$
 
 ```
 
@@ -75,5 +75,10 @@ sxy@sxy-pc:~/git/repos/opencv_test/opencv_test$ git config --global http.postBuf
 
 
 ```
-  
 
+```
+$ git rm -r --cached hkcamera_test/
+$ git commit -m "删除hkcamera_test"
+$ git push -u origin master
+
+```
