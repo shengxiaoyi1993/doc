@@ -96,3 +96,15 @@ $ git commit -m "删除hkcamera_test"
 $ git push -u origin master
 
 ```
+
+- create new repository
+```
+  * // creat repo in website of github使用记录
+  * // in local directory of new-repos
+  * git init
+  * git add *
+  * git commit -m "add"
+  * git remote add origin git@github.com:shengxiaoyi1993/algorithm.git
+  * git push -u origin master
+
+```
