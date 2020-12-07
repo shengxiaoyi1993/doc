@@ -17,3 +17,8 @@
 #include <QMetaType>
 qRegisterMetaType<DataStruct>("DataStruct");
 ```
+
+
+## 函数返回值问题
+- 当一个函数应该有返回值，但是没有return ,被编译后,release模式下可能运行出错，但是debug模式下运行正常
+- 切勿遗忘函数的返回值
