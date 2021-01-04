@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+### tasklist
+- [ ] set up zcu102 env
+  - [x] install tools according to `/home/sxy/Work/dvt_repo/duvdm100/duvdm100_fw/device_demo/uvss_device_doc/build/compile_image.md`
+    - [x] install Petalinux_19_1
+    - [x] install Xilinx_SDx.
+- [ ] run pre-build image :copy files to sd card 
+
+- [ ] chapter 1
+
+  

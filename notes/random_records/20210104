@@ -1,0 +1,9 @@
+- Dell inspiron 5498 安装win 10/centos 7.7 双系统
+  - 背景：电脑本身装有，win10和centos双系统，但是崩溃了
+  - 过程
+    - windows10 使用系统自带的恢复功能进行重置
+    - centos 安装源`Centos 77 1908`光盘
+    - centos安装界面不显示：可能是nvdia与显示器本身的驱动冲突，安装选项按`e`进入编辑模式，`limuze /image/vmlinuz inst.stage2=hd:LABEL=CentOS\x207\x20x8 nomodeset quiet`该行中加入`nomodeset`
+    - 无法找到硬盘：需要在BIOS设置界面，设置SATA模式为AHCI
+    - SATA模式下win无法启动：使用安全模式打开win10，再次打开时就能正常打开
+
